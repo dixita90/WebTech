@@ -14,9 +14,6 @@
 	text-decoration: none;
 	text-align: center;
 	font-family: 'Helvetica';
-	border-left-width: 8px;
-	border-color: gray;
-	border-left-style: solid;
 	color: white;
 }
 
@@ -26,16 +23,20 @@
 	font-size:28px;
 	display: block;
 	text-align: center;
+	border-left-width: 4px;
+	border-left-style: solid;
 }
 
 .fa-bank
 {
 	color: #66a3ff;
+	border-color: #66a3ff;
 }
 
 .fa-car
 {
 	color:  #ff8c1a;
+	border-color: #ff8c1a;
 }
 
 .fa-map-marker
