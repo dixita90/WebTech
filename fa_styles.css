@@ -1,0 +1,28 @@
+.side_menu
+{
+	margin: 0px;
+	padding: 0px;
+	background-color:  #181a1b;
+	max-width:240px;
+	width: auto;
+}
+
+.side_links a 
+{
+	display:block;
+	padding: 10px ;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Helvetica';
+	border-left-width: 8px;
+	border-color: gray;
+	border-left-style: solid;
+}
+
+.fa
+{
+	padding: 10px;
+	font-size:28px;
+	display: block;
+	text-align: center;
+}
