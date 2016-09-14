@@ -17,6 +17,7 @@
 	border-left-width: 8px;
 	border-color: gray;
 	border-left-style: solid;
+	color: white;
 }
 
 .fa
@@ -25,4 +26,24 @@
 	font-size:28px;
 	display: block;
 	text-align: center;
+}
+
+.fa-bank
+{
+	color: #66a3ff;
+}
+
+.fa-car
+{
+	color:  #ff8c1a;
+}
+
+.fa-map-marker
+{
+	color: #00b300;
+}
+
+.fa-heart
+{
+	color:red;
 }
