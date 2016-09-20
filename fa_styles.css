@@ -3,8 +3,9 @@
 	margin: 0px;
 	padding: 0px;
 	background-color:  #181a1b;
-	max-width:240px;
-	width: auto;
+	
+	width:100px;
+	height: 100%;
 }
 
 .side_links a 
@@ -15,6 +16,14 @@
 	text-align: center;
 	font-family: 'Helvetica';
 	color: white;
+}
+
+.side_links a.selected 
+{
+	color:gray;
+	background-color: white;
+	cursor: default;
+	font-weight: bold;
 }
 
 .fa
@@ -30,13 +39,13 @@
 .fa-bank
 {
 	color: #66a3ff;
-	border-color: #66a3ff;
+	
 }
 
 .fa-car
 {
 	color:  #ff8c1a;
-	border-color: #ff8c1a;
+	
 }
 
 .fa-map-marker
@@ -47,4 +56,21 @@
 .fa-heart
 {
 	color:red;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* For tablets: */
+@media only screen and (min-width: 600px)
+{
+.side_menu {width:140px;}
+}
+
+/* For desktop: */
+@media only screen and (min-width: 768px)
+{
+.side_menu {width:180px;}
 }
