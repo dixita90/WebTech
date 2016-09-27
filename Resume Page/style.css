@@ -1,0 +1,64 @@
+body {
+	margin:0px;
+	padding:0px;
+}
+
+header {
+background-color: rgb(255,165,0);
+padding: 0.5em 0;
+text-transform: uppercase;
+ text-align: center;
+ text-shadow: 2px 2px gray;
+ font-size: 42px;
+
+}
+
+div {
+	background: gray;
+	padding: 10px;
+	margin:10px;
+}
+
+#aboutMe {
+	margin-top: 100px;
+}
+/* overflow gives the menu full length of the page */
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+}
+
+.menu li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #111;
+}
+
+
+li:last-child {
+    border-right: none;
+}
+/* 
+Reference
+ http://www.w3schools.com/css/css_navbar.asp
+ */
