@@ -4,14 +4,12 @@ body {
 }
 
 header {
-background-color: rgb(255,165,0);
-padding: 0.5em 0;
-text-transform: uppercase;
- text-align: center;
- text-shadow: 2px 2px gray;
- font-size: 42px;
- 
-
+	background-color: rgb(255,165,0);
+	padding: 0.5em 0;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 2px 2px gray;
+	font-size: 42px;
 }
 
 div {
@@ -59,7 +57,21 @@ div {
 li:last-child {
     border-right: none;
 }
-/* 
+
+#social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+
+
+
+ /*
 Reference
  http://www.w3schools.com/css/css_navbar.asp
+ http://bootsnipp.com/snippets/featured/social-icon-strip-footer
  */
