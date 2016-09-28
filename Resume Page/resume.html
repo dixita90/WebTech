@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<title> Resume</title>
@@ -21,25 +22,28 @@
 		</nav>
 	</div>
 	<div id="content">
-		<div id="aboutMe">
-			<h2>About Me</h2>
-			<img src="me.png" alt="my picture" style="float:left" />
-			<i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i>
-			<p>I am a Junior Software Developer with expertise in C# and .NET technologies with 2+ years of work experience.</p>
+		<div class="row">
+		<h2>About Me</h2>
+			<div class="col" >
+				<img src="me.png" alt="my picture" style="height:100px;" />
+			</div>
+			<div class="col">
+				<i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i>
+				<p>I am a Junior Software Developer with expertise in C# and .NET technologies with 2+ years of work experience.</p>
 		</div>
-		<div id="education">
+		<div class="row">
 			<h2>Education</h2>
 			<p><b>Master of Science</b>,Software Development, Marist College, GPA: 3.88 May 2016</p>
 			<p><b>Bachelor of Engineering</b>, Information Technology, Mumbai University May 2012</p>
 		</div>
-		<div id="skills">
+		<div class="row">
 			<h2>Skills</h2>
 			Programming Languages: Java, C#, Scala<br>
 			Web Technologies: JavaScript, HTML, CSS, ASP.NET<br>
 			Database: SQL Server, SQLite, and PostgreSQL<br>
 			Applications/Tools: Eclipse, NetBeans, Visual Studio, GitHub, SVN<br>
 		</div>
-		<div id="projects">
+		<div class="row">
 			<h2>Projects</h2>
 			<div>
 				Master's Project: Metrics Collector Jan 2016-May 2016 Developed a Linux desktop application using agile development model which incorporates CPU, memory, and network statistics. Planned and designed the database to not only store acquired data, but also aggregate legacy data. Designed the UI to display data using JavaFX. Application was designed using Java and SQLite. Build system used was Apache Maven and GIT was used for source code management.
@@ -51,7 +55,7 @@
 				Enterprise Resource Planning for Devaki Tools and Equipment Dec 2012 Developed a web application using HTML, CSS and JavaScript for CRM, Inventory Management, and HRM in .NET framework. Performed all stages of Software Development life cycle ranging from gathering requirements through dev/test and deployment.
 			</div>
 		</div>
-		<div id="employment">
+		<div class="row">
 			<h2>Employment</h2>
 			<div>
 				Junior Software Developer-Microexcel, NY Jul 2016-Present 
@@ -83,7 +87,7 @@
 				</ul>
 			</div>
 		</div>
-		<div id="activities">
+		<div class="row">
 			<h2>Activities</h2>
 		</div>
 	</div>

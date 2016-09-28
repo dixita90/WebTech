@@ -4,7 +4,8 @@ body {
 }
 
 header {
-	background-color: rgb(255,165,0);
+	background: rgb(255,165,0);
+	background: linear-gradient(to bottom, rgba(255,165,0,1), rgba(178,115,0,1));
 	padding: 0.5em 0;
 	text-transform: uppercase;
 	text-align: center;
@@ -12,8 +13,11 @@ header {
 	font-size: 42px;
 }
 
-#content div {
+.row {
 	background: #d0d3d4;	
+	border-style: solid;
+	border-color: blue;
+	overflow: hidden;
 }
 
 
@@ -27,8 +31,6 @@ header {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    
-   
 }
 
 #banner{
@@ -74,7 +76,22 @@ li:last-child {
      color: #d34836;
  }
 
+.col{
+	
+	height: 100px;
+	width:50%;
+	float: left;
+}
 
+html {
+    box-sizing: border-box;   
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
 
  /*
 Reference
