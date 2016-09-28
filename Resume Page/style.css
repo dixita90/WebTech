@@ -12,23 +12,29 @@ header {
 	font-size: 42px;
 }
 
-div {
-	background: #d0d3d4;
-	padding: 10px;
-	margin:10px;
+#content div {
+	background: #d0d3d4;	
 }
 
-#aboutMe {
-	margin-top: 100px;
+
+#content{
+	padding-top: 150px;
 }
-/* overflow gives the menu full length of the page */
+
 .menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    position: fixed;
+    
+   
+}
+
+#banner{
+	position: fixed;
+	margin: 0;
+    padding: 0;
     width: 100%;
 }
 
