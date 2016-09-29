@@ -1,15 +1,16 @@
 body {
 	margin:0px;
 	padding:0px;
+
 }
 
 header {
 	background: rgb(255,165,0);
-	background: linear-gradient(to bottom, rgba(255,165,0,1), rgba(178,115,0,1));
+	
 	padding: 0.5em 0;
 	text-transform: uppercase;
 	text-align: center;
-	text-shadow: 2px 2px gray;
+	
 	font-size: 42px;
 }
 
@@ -17,13 +18,21 @@ header {
 	color: #303030;	
 	overflow: hidden;
 	margin: 20px;
+	margin-top:0px;
+	margin-bottom: 0px;
 	padding:10px;
-	box-shadow: 10px 10px 3px #888888;
-	border-style: ridge;
+	padding-bottom: 13px;
+	padding-top: 0px;
+	border-bottom-style: ridge;
+	background-color: white;
 }
 
 h2{
-	color: #ff8100;
+	color: rgb(255,165,0);
+}
+
+.col_3_4 .fa-border{
+	border-width:0;
 }
 
 #content{
