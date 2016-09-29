@@ -81,6 +81,10 @@ li:last-child {
      color: #d34836;
  }
 
+  #social-em:hover {
+     color: green;
+ }
+
 .col_1_4{
 	height: 150px;
 	width:15%;
