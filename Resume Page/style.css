@@ -14,12 +14,17 @@ header {
 }
 
 .row {
-	background: #d0d3d4;	
-	border-style: solid;
-	border-color: blue;
+	color: #303030;	
 	overflow: hidden;
+	margin: 20px;
+	padding:10px;
+	box-shadow: 10px 10px 3px #888888;
+	border-style: ridge;
 }
 
+h2{
+	color: #ff8100;
+}
 
 #content{
 	padding-top: 150px;
@@ -76,15 +81,39 @@ li:last-child {
      color: #d34836;
  }
 
-.col{
-	
-	height: 100px;
-	width:50%;
+.col_1_4{
+	height: 150px;
+	width:15%;
+	float: left;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+.col_3_4{
+	width:75%;
 	float: left;
 }
 
+.circleImg{
+	height: 150px;
+
+}
+
+footer{
+	display: table;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+footer a{
+	margin:5px;
+	color:#505050;
+}
+/* Boder box includes content, padding and border, it excludes the margin
+All elements neeed to inherit border box*/
 html {
     box-sizing: border-box;   
+
 }
 
 *,
