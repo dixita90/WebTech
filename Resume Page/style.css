@@ -10,6 +10,7 @@ header {
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 42px;
+	font-family: Georgia;
 }
 
 .row {
@@ -32,6 +33,10 @@ header {
 
 .alignRight{
 	float: right;
+}
+
+.alignLeft{
+	float: left;
 }
 
 .col_3_4 .fa-border{
@@ -84,6 +89,18 @@ header {
 
 li:last-child {
     border-right: none;
+}
+
+.fa-map-marker{
+color:rgb(255,165,0);
+}
+
+.fa-calendar{
+	color:#111;
+}
+
+hr{
+	border-top: dotted 1px;
 }
 
 #social-fb:hover {
