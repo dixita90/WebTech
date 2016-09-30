@@ -103,6 +103,19 @@ hr{
 	border-top: dotted 1px;
 }
 
+.col_3_4 .fa{
+	padding: 7px;
+
+}
+
+.fa-quote-left{
+	height: 100px;
+}
+
+.col_3_4{
+	text-align: justify;
+}
+
 #social-fb:hover {
      color: #3B5998;
  }
