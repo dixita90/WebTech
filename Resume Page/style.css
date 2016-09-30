@@ -1,3 +1,4 @@
+/* To remove default padding and margin from the browser specified in useragent style*/
 body {
 	margin:0px;
 	padding:0px;
@@ -39,10 +40,7 @@ header {
 	float: left;
 }
 
-.col_3_4 .fa-border{
-	border-width:0;
-}
-
+/* Padding added to display content below the fixed banner*/
 #content{
 	padding-top: 150px;
 }
@@ -51,8 +49,10 @@ header {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    text-align:center;
     overflow: hidden;
     background-color: #333;
+    display: block;
 }
 
 #banner{
@@ -63,7 +63,8 @@ header {
 }
 
 .menu li {
-    float: left;
+    display: inline-block;
+    text-align: center;
     border-right: 1px solid #bbb;
 }
 
