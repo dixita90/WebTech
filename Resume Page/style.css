@@ -47,12 +47,12 @@ header {
 
 .menu {
     list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     text-align:center;
     overflow: hidden;
-    background-color: #333;
     display: block;
+    width:500px;
 }
 
 #banner{
@@ -62,8 +62,12 @@ header {
     width: 100%;
 }
 
+nav{
+	 background-color: #333;
+}
+
 .menu li {
-    display: inline-block;
+    float: left;
     text-align: center;
     border-right: 1px solid #bbb;
 }
@@ -81,6 +85,10 @@ header {
 
 .menu li a:hover {
     background-color: #111;
+}
+
+.active{
+	background-color: #111;
 }
 
 .menu li a:active {
