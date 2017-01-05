@@ -1,0 +1,18 @@
+<html>
+<head>
+test
+</head>
+<body>
+<nav>
+			<ul class="menu">
+				<li class="active"><a href="#aboutMe"> About Me </a> </li>
+				<li><a href="#education"> Education </a></li>
+				<li><a href="#skills"> Skills </a></li>
+				<li><a href="#projects"> Projects </a></li>
+				<li><a href="#employment"> Employment </a></li>
+				<li><a href="#activities"> Activities </a></li>
+			</ul>
+		</nav>
+		<div>
+		</div>
+		</html>
