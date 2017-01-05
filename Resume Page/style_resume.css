@@ -1,0 +1,198 @@
+/* To remove default padding and margin from the browser specified in useragent style*/
+body {
+	margin:0px;
+	padding:0px;
+
+}
+
+header {
+	background: rgb(255,165,0);
+	padding: 0.5em 0;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 42px;
+	font-family: Georgia;
+}
+
+.row {
+	color: #303030;	
+	overflow: hidden;
+	margin: 20px;
+	margin-top:0px;
+	margin-bottom: 0px;
+	padding:10px;
+	padding-bottom: 13px;
+	padding-top: 0px;
+	border-bottom-style: ridge;
+	background-color: white;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+.alignRight{
+	float: right;
+}
+
+.alignLeft{
+	float: left;
+}
+
+/* Padding added to display content below the fixed banner*/
+#content{
+	padding-top: 150px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align:center;
+    overflow: hidden;
+    display: block;
+    width:500px;
+}
+
+#banner{
+	position: fixed;
+	margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+nav{
+	 background-color: #333;
+}
+
+.menu li {
+    float: left;
+    text-align: center;
+    border-right: 1px solid #bbb;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    top: -250px;
+  -webkit-transition: all 0.5s ease;
+
+}
+
+.menu li a:hover {
+    background-color: #111;
+}
+
+.active{
+	background-color: #111;
+}
+
+.menu li a:active {
+    background-color: #111;
+}
+
+
+li:last-child {
+    border-right: none;
+}
+
+.fa-map-marker{
+color:rgb(255,165,0);
+}
+
+.fa-calendar{
+	color:#111;
+}
+
+hr{
+	border-top: dotted 1px;
+}
+
+.col_3_4 .fa{
+	padding: 7px;
+
+}
+
+.fa-quote-left{
+	height: 100px;
+}
+
+.col_3_4{
+	text-align: justify;
+}
+
+#social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+
+  #social-em:hover {
+     color: green;
+ }
+
+.col_1_4{
+	height: 150px;
+	width:15%;
+	float: left;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+.col_3_4{
+	width:75%;
+	float: left;
+}
+
+.circleImg{
+	height: 150px;
+
+}
+
+.row:nth-of-type(even) {
+    background: #e0e0e0;
+}
+
+footer{
+	display: table;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 0.5em;
+}
+
+footer a{
+	margin:5px;
+	color:#505050;
+}
+/* Boder box includes content, padding and border, it excludes the margin
+All elements neeed to inherit border box*/
+html {
+    box-sizing: border-box;   
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.link{
+	display: block;
+	position: relative;
+	top:-136px;
+}
+
+ /*
+Reference
+ http://www.w3schools.com/css/css_navbar.asp
+ http://bootsnipp.com/snippets/featured/social-icon-strip-footer
+ */
