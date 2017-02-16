@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+	<title> Custom video controls</title>
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<script>
+		var video;
+
+		window.onload{
+			video=document.getElementById("sample");
+		}
+
+		function back(){
+			video.currentTime -=10;
+		}
+
+		function forward(){
+			video.play();
+		}
+
+		function pause(){
+			video.pause();
+		}
+	</script>
+</head>
+<body>
+	<table>
+		<tr>
+			<td>
+				<video  height="300" width="300" autoplay id="sample">
+					<source src="SampleVideo.mp4" type="Video/mp4" />
+				</video>
+			</td>
+			<td>
+				<img id="backward" onclick="back()" /><i class="fa fa-backward fa-lg"  /><br>
+				<img id="forward" onclick="forward()" /><i class="fa fa-forward fa-lg" /><br>
+				<img id="pause" onclick="pause()" /><i class="fa fa-pause " /><br>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
