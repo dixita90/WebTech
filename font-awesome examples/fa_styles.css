@@ -1,0 +1,76 @@
+.side_menu
+{
+	margin: 0px;
+	padding: 0px;
+	background-color:  #181a1b;
+	
+	width:100px;
+	height: 100%;
+}
+
+.side_links a 
+{
+	display:block;
+	padding: 10px ;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Helvetica';
+	color: white;
+}
+
+.side_links a.selected 
+{
+	color:gray;
+	background-color: white;
+	cursor: default;
+	font-weight: bold;
+}
+
+.fa
+{
+	padding: 10px;
+	font-size:28px;
+	display: block;
+	text-align: center;
+	border-left-width: 4px;
+	border-left-style: solid;
+}
+
+.fa-bank
+{
+	color: #66a3ff;
+	
+}
+
+.fa-car
+{
+	color:  #ff8c1a;
+	
+}
+
+.fa-map-marker
+{
+	color: #00b300;
+}
+
+.fa-heart
+{
+	color:red;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* For tablets: */
+@media only screen and (min-width: 600px)
+{
+.side_menu {width:140px;}
+}
+
+/* For desktop: */
+@media only screen and (min-width: 768px)
+{
+.side_menu {width:180px;}
+}

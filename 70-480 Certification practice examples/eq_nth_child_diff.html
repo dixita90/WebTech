@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+	<title>test</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+		    $('table td:nth-child(2) input').focus(
+		    	function(){
+		    		$(this).parent().next().css("background-color","green");
+		    	});
+		    //does not work
+		      $('table td:eq(2) ').focus(
+		      	function(){
+		      	$('this').css("value","red");
+		      	});
+		});
+	</script>
+</head>
+<body>
+//x-offset,y-offset,blur-radius,color
+<p style="text-shadow: 0px 72px 5px red;">hey hey hey</p>
+	<table>
+		<tr>
+			<td>Item</td>		
+			<td>Input</td>
+			<td>Current</td>
+		</tr>
+		<tr>
+			<td>First Name</td>		
+			<td><input type="text"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Last Name</td>		
+			<td><input type="text"></td>
+			<td></td>
+		</tr>
+	</table>
+
+</body>
+</html>
