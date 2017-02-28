@@ -17,14 +17,26 @@ header {
 .row {
 	color: #303030;	
 	overflow: hidden;
-	margin: 20px;
-	margin-top:0px;
-	margin-bottom: 0px;
-	padding:10px;
-	padding-bottom: 13px;
-	padding-top: 0px;
+	padding:1.5em;
 	border-bottom-style: ridge;
 	background-color: white;
+	box-sizing:border-box;
+	
+}
+
+.col_3_4{
+	text-align: justify;
+	box-sizing:border-box;
+	
+}
+	
+
+.col_1_4{
+	height: 150px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	box-sizing:border-box;
+	float:left;
 }
 
 .bold
@@ -121,9 +133,7 @@ hr{
 	height: 100px;
 }
 
-.col_3_4{
-	text-align: justify;
-}
+
 
 #social-fb:hover {
      color: #3B5998;
@@ -139,18 +149,8 @@ hr{
      color: green;
  }
 
-.col_1_4{
-	height: 150px;
-	width:15%;
-	float: left;
-	padding-left: 20px;
-	padding-bottom: 20px;
-}
 
-.col_3_4{
-	width:75%;
-	float: left;
-}
+
 
 .circleImg{
 	height: 150px;
@@ -190,6 +190,8 @@ html {
 	position: relative;
 	top:-136px;
 }
+
+
 
  /*
 Reference
